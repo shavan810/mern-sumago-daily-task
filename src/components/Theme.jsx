@@ -37,12 +37,10 @@ export default function SplitScreen() {
           <h2>{data ? "JavaScript" : "React"}</h2>
           <p>
             {data
-              ? "Complete JavaScript tutorial with deep concepts."
-              : "Complete React tutorial with hooks and projects."}
+              ? "This is javascript course provided by mr. shavan singh . and this is complete javascript course with deep concepts."
+              : "This is react course provided by mr. shavan singh . and this is complete react course with deep concepts."}
           </p>
         </div>
-
-        {/* <div className="divider"></div> */}
 
         <div
           className="rightSide"
@@ -55,8 +53,8 @@ export default function SplitScreen() {
           <h2>{data ? "Python" : "C Language"}</h2>
           <p>
             {data
-              ? "Comprehensive Python programming course."
-              : "Structured C programming tutorial."}
+              ? "This is python course provided by mr. shavan singh . and this is complete python course with deep concepts."
+              : "This is c language course provided by mr. shavan singh . and this is complete c language course with deep concepts."}
           </p>
         </div>
       </div>
@@ -65,7 +63,7 @@ export default function SplitScreen() {
         className="themeBtn"
         onClick={() => {
           setData(!data);
-          setTheme((prev) => (prev + 1) % 2); // theme rotate
+          setTheme((prev) => (prev + 1) % 2); // theme rotate ye imp hai 
         }}
       >
         Change Content
