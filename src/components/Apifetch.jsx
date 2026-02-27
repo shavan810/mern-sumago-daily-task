@@ -16,10 +16,10 @@ export default function Apifetch() {
   
   return (
     <>
-    <table className='border-2 mx-auto mt-[100px]'>
+    <table className='border-2 mx-auto mt-25'>
       <thead className='border-2 bg-green-300'>
         <tr>
-          <th className='pl-[500px]'>Quotes</th>
+          <th className='pl-125'>Quotes</th>
           <th>Author</th>
           </tr>
       </thead>
