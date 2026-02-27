@@ -7,6 +7,9 @@ import About from './pages/About'
 import Home from './pages/Home'
 import { Routes, Route, Link } from "react-router-dom";
 import Team from './pages/Team'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ProductDetail from './pages/ProductDetails'
+
 
 
 
@@ -26,7 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Team />} />
         <Route path="/apifetch" element={<Apifetch />} />
-      </Routes>
+<Route path="/product/:id" element={<Home />} />      </Routes>
     </>
   )
 }
